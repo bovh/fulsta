@@ -1,0 +1,14 @@
+note over selain:
+selain suorittaa tapahtumankäsittelijän ja
+a) poimii datan lomakkeelta
+b) renderöi muistiinpanot lisäten uuden alkion
+c) lähettää data-alkion JSON-muodossa palvelimelle
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over palvelin:
+palvelin käsittelee (tallentaa) data-alkion
+end note
+
+palvelin-->selain: {"message":"note created"}

@@ -1,0 +1,17 @@
+h2 {
+  color: darkblue;
+}
+.error, .success {
+  background-color: ivory;
+  border-style: solid;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 6px;
+  margin-bottom: 18px;
+}
+.error {
+  color: darkred;
+}
+.success {
+  color: darkgreen;
+}
